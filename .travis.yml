@@ -5,7 +5,7 @@ before_install:
   - git submodule update --init --recursive
   - sudo apt-add-repository -y ppa:ubuntu-sdk-team/ppa 
   - sudo apt-get update -qq
-  - sudo apt-get install -qq p7zip-full qtdeclarative5-dev qt5-default qtmultimedia-opensource-src
+  - sudo apt-get install -qq p7zip-full qtdeclarative5-dev qt5-default qtmultimedia5-dev
 script:
   - ls /usr/lib/x86_64-linux-gnu/qt5/
   - which qmake

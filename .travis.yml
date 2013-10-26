@@ -5,8 +5,12 @@ before_install:
   - git submodule update --init --recursive
   - sudo apt-add-repository -y ppa:ubuntu-sdk-team/ppa
   - sudo apt-get update
-  - sudo apt-get install -qq p7zip-full qtdeclarative5-dev
+  - sudo apt-get install -qq p7zip-full qtdeclarative5-dev qt5-default
 script:
+  - ls /usr/lib/x86_64-linux-gnu/qt5/
+  - ls /usr/lib
+  - ls /usr/lib/i686-linux-gnu/qt5/
+  - /usr/lib/x86_64-linux-gnu/qt5/bin/qmake
   - qmake -v
   - qmake
   - make

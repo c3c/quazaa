@@ -29,7 +29,8 @@ after_success:
   - echo -e "-----BEGIN DSA PRIVATE KEY-----\n$SF_PK1\n$SF_PK2\n$SF_PK3\n$SF_PK4\n$SF_PK5\n$SF_PK6\n$SF_PK7\n$SF_PK8\n$SF_PK9\n$SF_PK10\n-----END DSA PRIVATE KEY-----\n" > id_dsa_travis
   - chmod 0600 id_dsa_travis
   - tarfile=Quazaa-TravisBuild-$(git rev-parse --short HEAD)-$(date +'%Y%m%d').tar
-  - tar -cf $tarfile bin; gzip $tarfile
+  - ls; ls Quazaa; ls Quazaa/bin; pwd
+  - cd Quazaa; tar -cf $tarfile bin; gzip $tarfile
   - scp -oStrictHostKeyChecking=no -i id_dsa_travis $tarfile.gz ce3c@frs.sourceforge.net:/home/frs/project/quazaa/TravisBuilds/
 notifications:
   email: false

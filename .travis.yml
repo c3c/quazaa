@@ -25,9 +25,9 @@ after_success:
   - secure: "I6pkVtHO3Fs5+Td2UaMyOx+lRqzidguri/xVmu9VZyqOaG+DgkSTelk+08PPm9myQ8eIJFmHN8L3t2Oxg9ZXQaDDGWSW1lwcQ+OE3j3ZigjNKOx0zfJYPDsIczW0Q/26GdtUy7L+g3MeGIcyBq/9/ctSxVESj/GeLdQXxiVBeWU="
   - secure: "pU8B7PzaSSoWGVdCPYpslEz8qtSEA/EFEenkh4eE401YT6R9PViwEro7hT80x19uSGA796e/JeEkP26uNTpWfcK3IQmGUTs2NKmbns30r1PpJYFQLfTQ4pLmVv0ZSAcjYcvj96n6lNH0MtliQZ80MGzxX9xO5NLnBBl4CAgP7FE="
   - echo -e "-----BEGIN DSA PRIVATE KEY-----\n$SF_PK1\n$SF_PK2\n$SF_PK3\n$SF_PK4\n$SF_PK5\n$SF_PK6\n$SF_PK7\n$SF_PK8\n$SF_PK9\n$SF_PK10\n-----END DSA PRIVATE KEY-----" > id_dsa_travis
+  - chmod 0600 id_dsa_travis
   - tarfile=Quazaa-TravisBuild-$(git rev-parse --short HEAD)-$(date +'%Y%m%d').tar
-  - tar -cf $tarfile bin
-  - gzip $tarfile
+  - tar -cf $tarfile bin; gzip $tarfile
   - scp -oStrictHostKeyChecking=no -i id_dsa_travis $tarfile.gz ce3c@frs.sourceforge.net:/home/frs/project/quazaa/TravisBuilds/
 notifications:
   email: false

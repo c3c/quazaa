@@ -3,7 +3,9 @@ compiler:
   - gcc
 before_install:
   - git submodule update --init --recursive
-  - sudo apt-get update; sudo apt-get install -qq p7zip-full qt5-qmake
+  - sudo apt-add-repository ppa:ubuntu-sdk-team/ppa
+  - sudo apt-get update
+  - sudo apt-get install -qq p7zip-full qtdeclarative5-dev
 script:
   - qmake -v
   - qmake

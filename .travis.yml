@@ -14,16 +14,16 @@ script:
   - qmake
   - make -j 16
 after_success:
-  secure: "e2oz+eUXPpX8HLV+4WZETxM/By5msCB274Ox9y5ehYiM1cbYse8gzflfXNJNn2+7Czi2fB2XuTxJXjfzdjfKcfluvL40LCbKTuqzfQvnCf5Jmt3ZHlyifVyxTkogs2ZFRbwUtQftu+BUyYBBspXhECXSoz1KkPB0DWBB/ETNiDg="
-  secure: "QJAsMSRF3u31v1HX1iwEx7o5FIyin8fN/AGOPCyThAgDnmbI1tNNAtqG48RoDaLRo8sZ6xms+9KnFZeJf5dZV4CGw2N37s2/zq7XU+MEQUCe00+4ku9dKY6DM4D/blMEz6vi+mNxEToazCdWw/t58hQMh5vxquaoog9OFp0lPrc="
-  secure: "Olll8zP9NGuDos1OvkIOlaYFn9vxxA4Pfz/H5IwO1cz65PEWEcGkzFnz2Rd7DSfkIQTp/22iAjnwrEu4u7qwJrPDzQDSbrTuo6BydzRfM9QL/Co6OGd8N0JprnYX53HPZM7oxNhytjy7qblN59cPIQUbAYA3vJeNyTcy/ubn2NY="
-  secure: "NwnZDF0Zw5K76h66S442OWeA+MfYRiPxMBQkDHExtVf4h9lDg5mk4yiuuAgdS4LMofZz5rwiKnH93353S7Bq99QfuioFkGBShthfsfxIn1qLaX4kqOiv7JM8YAN7SfA1UD+EnXfgkNGg7rfGF4GzQ3dc6klAbjksJzJxT5B/CvM="
-  secure: "F9aLpp1mkz0P8jamezW4cwO+KAZO67/QixSZ9b4R5qQko0P9MvcX3bt1OhHKZ+7uLCwD5qpx2pdKf/gQB2yyW7X+qw9b7gq0S2IRcqeC8sbE+DBBIfDNTlCOuWGILrzQGL1YO9ErGF1FxXEgQ4h2GWgyCOPoA5ixJ3+U9z3oH8Y="
-  secure: "UOijvs01T4X0kEgfBV2nj0p0qqRoeInPYVxPeb+xpxej3twrF0u/FU/s5FlMasvqVaRsvimcEQLs6Q7qgEkRM7wkynAHX991QD/rFKiEyexS4Kaw+Hc5VYamt1y2pYA8NIdWndjj66FwFf0no/iDs0o8ISdBDjBAb8aOSpdbTdM="
-  secure: "JevkFWxHCCQHkv2NLY5U36uRrdywEwDhU8AZaMYiisy9O2gLlRGqQBrRkO+wI7li/py1I189jPtG7dHuiNTyt/4C7JZLWSUXVXLU5D1/KuuJpbHHGBmxzAEP4859v1eoTtIFYEvYIyp1+OB+/G9aakyD70Xc9E9unxpqd1l3c4s="
-  secure: "PrwiSnkOpO49POb5ENKsJLfBblkqNZBP/GA03e3YCIjf5PUlydt9UvuUXR/TSCDYs92yGUxuSC319yC9qKogREqmA0HefIoQ8zuF2yWBAm38a6gAeSMCxWKA9x81ub6yLYj1kPkHhiamCXHqhrtiUjhecfCFytbjyPNd7SShNnY="
-  secure: "I6pkVtHO3Fs5+Td2UaMyOx+lRqzidguri/xVmu9VZyqOaG+DgkSTelk+08PPm9myQ8eIJFmHN8L3t2Oxg9ZXQaDDGWSW1lwcQ+OE3j3ZigjNKOx0zfJYPDsIczW0Q/26GdtUy7L+g3MeGIcyBq/9/ctSxVESj/GeLdQXxiVBeWU="
-  secure: "pU8B7PzaSSoWGVdCPYpslEz8qtSEA/EFEenkh4eE401YT6R9PViwEro7hT80x19uSGA796e/JeEkP26uNTpWfcK3IQmGUTs2NKmbns30r1PpJYFQLfTQ4pLmVv0ZSAcjYcvj96n6lNH0MtliQZ80MGzxX9xO5NLnBBl4CAgP7FE="
+  - secure: "e2oz+eUXPpX8HLV+4WZETxM/By5msCB274Ox9y5ehYiM1cbYse8gzflfXNJNn2+7Czi2fB2XuTxJXjfzdjfKcfluvL40LCbKTuqzfQvnCf5Jmt3ZHlyifVyxTkogs2ZFRbwUtQftu+BUyYBBspXhECXSoz1KkPB0DWBB/ETNiDg="
+  - secure: "QJAsMSRF3u31v1HX1iwEx7o5FIyin8fN/AGOPCyThAgDnmbI1tNNAtqG48RoDaLRo8sZ6xms+9KnFZeJf5dZV4CGw2N37s2/zq7XU+MEQUCe00+4ku9dKY6DM4D/blMEz6vi+mNxEToazCdWw/t58hQMh5vxquaoog9OFp0lPrc="
+  - secure: "Olll8zP9NGuDos1OvkIOlaYFn9vxxA4Pfz/H5IwO1cz65PEWEcGkzFnz2Rd7DSfkIQTp/22iAjnwrEu4u7qwJrPDzQDSbrTuo6BydzRfM9QL/Co6OGd8N0JprnYX53HPZM7oxNhytjy7qblN59cPIQUbAYA3vJeNyTcy/ubn2NY="
+  - secure: "NwnZDF0Zw5K76h66S442OWeA+MfYRiPxMBQkDHExtVf4h9lDg5mk4yiuuAgdS4LMofZz5rwiKnH93353S7Bq99QfuioFkGBShthfsfxIn1qLaX4kqOiv7JM8YAN7SfA1UD+EnXfgkNGg7rfGF4GzQ3dc6klAbjksJzJxT5B/CvM="
+  - secure: "F9aLpp1mkz0P8jamezW4cwO+KAZO67/QixSZ9b4R5qQko0P9MvcX3bt1OhHKZ+7uLCwD5qpx2pdKf/gQB2yyW7X+qw9b7gq0S2IRcqeC8sbE+DBBIfDNTlCOuWGILrzQGL1YO9ErGF1FxXEgQ4h2GWgyCOPoA5ixJ3+U9z3oH8Y="
+  - secure: "UOijvs01T4X0kEgfBV2nj0p0qqRoeInPYVxPeb+xpxej3twrF0u/FU/s5FlMasvqVaRsvimcEQLs6Q7qgEkRM7wkynAHX991QD/rFKiEyexS4Kaw+Hc5VYamt1y2pYA8NIdWndjj66FwFf0no/iDs0o8ISdBDjBAb8aOSpdbTdM="
+  - secure: "JevkFWxHCCQHkv2NLY5U36uRrdywEwDhU8AZaMYiisy9O2gLlRGqQBrRkO+wI7li/py1I189jPtG7dHuiNTyt/4C7JZLWSUXVXLU5D1/KuuJpbHHGBmxzAEP4859v1eoTtIFYEvYIyp1+OB+/G9aakyD70Xc9E9unxpqd1l3c4s="
+  - secure: "PrwiSnkOpO49POb5ENKsJLfBblkqNZBP/GA03e3YCIjf5PUlydt9UvuUXR/TSCDYs92yGUxuSC319yC9qKogREqmA0HefIoQ8zuF2yWBAm38a6gAeSMCxWKA9x81ub6yLYj1kPkHhiamCXHqhrtiUjhecfCFytbjyPNd7SShNnY="
+  - secure: "I6pkVtHO3Fs5+Td2UaMyOx+lRqzidguri/xVmu9VZyqOaG+DgkSTelk+08PPm9myQ8eIJFmHN8L3t2Oxg9ZXQaDDGWSW1lwcQ+OE3j3ZigjNKOx0zfJYPDsIczW0Q/26GdtUy7L+g3MeGIcyBq/9/ctSxVESj/GeLdQXxiVBeWU="
+  - secure: "pU8B7PzaSSoWGVdCPYpslEz8qtSEA/EFEenkh4eE401YT6R9PViwEro7hT80x19uSGA796e/JeEkP26uNTpWfcK3IQmGUTs2NKmbns30r1PpJYFQLfTQ4pLmVv0ZSAcjYcvj96n6lNH0MtliQZ80MGzxX9xO5NLnBBl4CAgP7FE="
   - echo -e "-----BEGIN DSA PRIVATE KEY-----\n$SF_PK1\n$SF_PK2\n$SF_PK3\n$SF_PK4\n$SF_PK5\n$SF_PK6\n$SF_PK7\n$SF_PK8\n$SF_PK9\n$SF_PK10\n-----END DSA PRIVATE KEY-----" > id_dsa_travis
   - tarfile=Quazaa-TravisBuild-$(git rev-parse --short HEAD)-$(date +'%Y%m%d').tar
   - tar -cf $tarfile bin
